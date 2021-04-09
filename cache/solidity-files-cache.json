@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\AMZEToken.sol": {
+      "lastModificationDate": 1618006726438,
+      "contentHash": "6c3f2ccaaf7845c68c7c8cae4645ac3a",
+      "sourceName": "contracts/AMZEToken.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.3"
+      ],
+      "artifacts": [
+        "AMZEToken",
+        "Context",
+        "IAMZE",
+        "Ownable",
+        "SafeMath"
+      ]
+    }
+  }
+}
