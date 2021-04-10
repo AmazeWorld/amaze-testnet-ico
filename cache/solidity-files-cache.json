@@ -38,6 +38,144 @@
         "Ownable",
         "SafeMath"
       ]
+    },
+    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\Context.sol": {
+      "lastModificationDate": 1618094570562,
+      "contentHash": "562efa1e4dde2c2df8e056d19d4607d3",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.3"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1618094580781,
+      "contentHash": "d8785b7e4dd4735eac400ebbadf13675",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.7.3"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\IAMZEToken.sol": {
+      "lastModificationDate": 1618094584161,
+      "contentHash": "326de604c4b0d45d222938127843053d",
+      "sourceName": "contracts/IAMZEToken.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.3"
+      ],
+      "artifacts": [
+        "IAMZE"
+      ]
+    },
+    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\SafeMath.sol": {
+      "lastModificationDate": 1618094589957,
+      "contentHash": "cef6bc40202cf44b449c205699ec18d0",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.3"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
     }
   }
 }
