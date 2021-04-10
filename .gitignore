@@ -105,3 +105,6 @@ dist
 
 #Secret Folder
 .secret/
+
+#Artifacts Folder
+artifacts/
