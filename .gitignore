@@ -103,5 +103,9 @@ dist
 # TernJS port file
 .tern-port
 
-#Secret Folder
+# Secret Folder
 .secret/
+
+# Test Folder
+test/
+
