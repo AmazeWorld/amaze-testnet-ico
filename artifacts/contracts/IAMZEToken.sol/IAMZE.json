@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
   "contractName": "IAMZE",
-  "sourceName": "contracts/AMZEToken.sol",
+  "sourceName": "contracts/IAMZEToken.sol",
   "abi": [
     {
       "anonymous": false,
