@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "D:\\AMZE\\ICO\\testnet-ico\\contracts\\AMZEToken.sol": {
-      "lastModificationDate": 1618056654212,
-      "contentHash": "2a0ed78ca8d8b446d72d053d823aaa22",
+      "lastModificationDate": 1618006726438,
+      "contentHash": "6c3f2ccaaf7845c68c7c8cae4645ac3a",
       "sourceName": "contracts/AMZEToken.sol",
       "solcConfig": {
         "version": "0.7.3",
@@ -27,154 +27,16 @@
           }
         }
       },
-      "imports": [
-        "./IAMZEToken.sol",
-        "./Ownable.sol",
-        "./SafeMath.sol"
-      ],
-      "versionPragmas": [
-        "0.7.3"
-      ],
-      "artifacts": [
-        "AMZEToken"
-      ]
-    },
-    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\IAMZEToken.sol": {
-      "lastModificationDate": 1618056314774,
-      "contentHash": "92afc1372f213da61c818e5e204497a0",
-      "sourceName": "contracts/IAMZEToken.sol",
-      "solcConfig": {
-        "version": "0.7.3",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
       "imports": [],
       "versionPragmas": [
         "0.7.3"
       ],
       "artifacts": [
-        "IAMZE"
-      ]
-    },
-    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\Ownable.sol": {
-      "lastModificationDate": 1618056691303,
-      "contentHash": "d8785b7e4dd4735eac400ebbadf13675",
-      "sourceName": "contracts/Ownable.sol",
-      "solcConfig": {
-        "version": "0.7.3",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Context.sol"
-      ],
-      "versionPragmas": [
-        "0.7.3"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\SafeMath.sol": {
-      "lastModificationDate": 1618056618175,
-      "contentHash": "cef6bc40202cf44b449c205699ec18d0",
-      "sourceName": "contracts/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.7.3",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "0.7.3"
-      ],
-      "artifacts": [
+        "AMZEToken",
+        "Context",
+        "IAMZE",
+        "Ownable",
         "SafeMath"
-      ]
-    },
-    "D:\\AMZE\\ICO\\testnet-ico\\contracts\\Context.sol": {
-      "lastModificationDate": 1618056668868,
-      "contentHash": "562efa1e4dde2c2df8e056d19d4607d3",
-      "sourceName": "contracts/Context.sol",
-      "solcConfig": {
-        "version": "0.7.3",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "0.7.3"
-      ],
-      "artifacts": [
-        "Context"
       ]
     }
   }

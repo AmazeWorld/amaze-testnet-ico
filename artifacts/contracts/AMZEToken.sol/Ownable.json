@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
   "contractName": "Ownable",
-  "sourceName": "contracts/Ownable.sol",
+  "sourceName": "contracts/AMZEToken.sol",
   "abi": [
     {
       "anonymous": false,
