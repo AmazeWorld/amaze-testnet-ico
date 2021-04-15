@@ -10,6 +10,7 @@ pragma solidity 0.7.3;
  *
  * This contract is only required for intermediate, library-like contracts.
  */
+ 
 abstract contract Context {
   // Empty internal constructor, to prevent people from mistakenly deploying
   // an instance of this contract, which should be used via inheritance.
