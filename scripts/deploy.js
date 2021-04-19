@@ -1,3 +1,7 @@
+/**
+ * 
+ */
+
 async function main() {
 
     const [deployer] = await ethers.getSigners();
@@ -21,3 +25,4 @@ async function main() {
       console.error(error);
       process.exit(1);
     });
+    
