@@ -25,9 +25,7 @@ describe("AMZE contract", function () {
         expect(await amzeToken._totalSupply()).to.equal(ownerBalance);
       });
     });
-    
-    
-    
+  
     /*describe("Transactions", function () {
         it("Should transfer tokens between accounts", async function () {
           // Transfer 50 tokens from owner to addr1

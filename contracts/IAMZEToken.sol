@@ -26,6 +26,7 @@ interface IAMZE {
    */
   function getOwner() external view returns (address);
 
+
   /**
    * @dev Returns the amount of tokens owned by `account`.
    */
